@@ -72,6 +72,7 @@ private:
 	string toString();
 
 	vector<long long> number;
+    bool positive;
 	const static long long DIGITS_BASE = 100000000;
 };
 

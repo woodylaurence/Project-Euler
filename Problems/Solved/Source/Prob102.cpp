@@ -14,8 +14,6 @@
 
 void Prob102 :: solve()
 {
-	cout << "Solving Problem 102..." << endl << endl;
-
 	int numTriangles = 0;
 
 	vector< vector<Point> > triangles = getTriangles();
@@ -27,6 +25,11 @@ void Prob102 :: solve()
 	cout << "Answer: " << numTriangles << endl;
 
 	return;
+}
+
+string Prob102 :: getProblemName()
+{
+    return "Problem 102";
 }
 
 bool Prob102 :: containsOrigin(Point a, Point b, Point c)

@@ -14,6 +14,7 @@ class Prob66 : public IProblem
 {
 public:
 	void solve();
+    std::string getProblemName();
 };
 
 

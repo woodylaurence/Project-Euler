@@ -14,8 +14,6 @@ using namespace std;
 
 void Prob94 :: solve()
 {
-	cout << "Solving Problem 94..." << endl << endl;
-
 	BigInt sum = 0;
 	BigInt x_0, y_0;
 
@@ -36,3 +34,7 @@ void Prob94 :: solve()
 	cout << "Answer: " << sum << endl;
 }
 
+string Prob94 :: getProblemName()
+{
+    return "Problem 94";
+}

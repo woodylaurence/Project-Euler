@@ -17,6 +17,7 @@ class Prob41 : public IProblem
 {
 public:
 	void solve();
+    string getProblemName();
 
 private:
 	long getNumFromDigits(vector<int> digits);

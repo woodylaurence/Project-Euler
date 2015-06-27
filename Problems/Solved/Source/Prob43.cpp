@@ -15,8 +15,6 @@
 
 void Prob43 :: solve()
 {
-	cout << "Solving Problem 43..." << endl << endl;
-
 	long long sum = 0;
 	vector<int> pandigitalNumber;
 	vector<long long> pandigitalNumbersWithProperty;
@@ -52,6 +50,11 @@ void Prob43 :: solve()
 	}
 
 	cout << "Answer: " << sum << endl;
+}
+
+string Prob43 :: getProblemName()
+{
+    return "Problem 43";
 }
 
 int Prob43 :: convertSubDigitsToNumber(int firstDig, vector<int> number)

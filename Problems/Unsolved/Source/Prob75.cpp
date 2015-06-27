@@ -14,8 +14,6 @@ using namespace std;
 
 void Prob75 :: solve()
 {
-	cout << "Solving Problem 75..." << endl;
-
 	int lengths[1500000] = {0};
 
 	for (int i = 1; i < 375000; i++)
@@ -39,4 +37,9 @@ void Prob75 :: solve()
 	}
 
 	cout << "Answer: " << answer << endl;
+}
+
+string Prob75 :: getProblemName()
+{
+    return "Problem 75";
 }

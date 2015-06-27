@@ -11,9 +11,12 @@
 
 void Prob31 :: solve()
 {
-	cout << "Solving Problem 31..." << endl << endl;
-
 	cout << "Answer: " << numWaysToMakeAmount(100, 99) << endl;
+}
+
+string Prob31 :: getProblemName()
+{
+    return "Problem 31";
 }
 
 long long Prob31 :: numWaysToMakeAmount(int amount, int largestDenominationToUse)

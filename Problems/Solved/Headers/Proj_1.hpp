@@ -14,6 +14,7 @@ class Prob1 : public IProblem
 {
 public:
 	void solve();
+    std::string getProblemName();
 
 private:
 	int triangle(int limit, int delta);

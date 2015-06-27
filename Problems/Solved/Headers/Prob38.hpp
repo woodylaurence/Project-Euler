@@ -17,6 +17,8 @@ class Prob38 : public IProblem
 {
 public:
 	void solve();
+    string getProblemName();
+    
 	vector<int> convertMultiDigitsToSingleDigitVector(vector<int> digits);
 };
 

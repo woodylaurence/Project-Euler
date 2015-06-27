@@ -12,8 +12,6 @@
 
 void Prob32 :: solve()
 {
-	cout << "Solving Problem 32..." << endl;
-
 	long long answer = 0;
 	bool products[100000] = {0};
 
@@ -41,6 +39,11 @@ void Prob32 :: solve()
 	}
 
 	cout << "Answer: " << answer << endl;
+}
+
+string Prob32 :: getProblemName()
+{
+    return "Problem 32";
 }
 
 vector<int> Prob32 :: concatonateNumbers(int multiplcand, int multipler, int product)

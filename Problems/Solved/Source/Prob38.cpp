@@ -12,8 +12,6 @@
 
 void Prob38 :: solve()
 {
-	cout << "Solving Problem 38..." << endl << endl;
-
 	long long num, largestNum = 0;
 	vector<int> number;
 	for (int i = 9999; i > 4999; i--)
@@ -30,6 +28,11 @@ void Prob38 :: solve()
 	}
 
 	cout << "Answer: " << largestNum << endl;
+}
+
+string Prob38 :: getProblemName()
+{
+    return "Problem 38";
 }
 
 vector<int> Prob38 :: convertMultiDigitsToSingleDigitVector(vector<int> digits)

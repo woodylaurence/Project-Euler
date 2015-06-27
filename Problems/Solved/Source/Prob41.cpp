@@ -17,9 +17,12 @@
 
 void Prob41 :: solve()
 {
-	cout << "Solving Problem 41..." << endl << endl;
-
 	cout << "Answer: " << getLargestPandigitalPrime() << endl;
+}
+
+string Prob41 :: getProblemName()
+{
+    return "Problem 41";
 }
 
 long Prob41 :: getNumFromDigits(vector<int> digits)

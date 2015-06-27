@@ -19,8 +19,6 @@ using namespace std;
 
 void Prob66 :: solve()
 {
-	cout << "Solving Problem 66..." << endl << endl;
-
 	BigInt maxX = 0;
 	int maxD = 0;
 
@@ -41,4 +39,9 @@ void Prob66 :: solve()
 	}
 
 	cout << "Answer: " << maxD << endl;
+}
+
+string Prob66 :: getProblemName()
+{
+    return "Problem 66";
 }

@@ -17,6 +17,7 @@ class Prob23 : public IProblem
 {
 public:
 	void solve();
+    string getProblemName();
 
 private:
 	vector<int> getAbundantNumbers();

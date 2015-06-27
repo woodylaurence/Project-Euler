@@ -14,6 +14,7 @@ class Prob72 : public IProblem
 {
 public:
 	void solve();
+    std::string getProblemName();
 
 private:
 	bool mutuallyPrime(int num1, int num2);

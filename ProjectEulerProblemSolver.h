@@ -9,9 +9,12 @@
 #ifndef Project_Euler_ProjectEulerProblemSolver_h
 #define Project_Euler_ProjectEulerProblemSolver_h
 
+class IProblem;
+
 class ProjectEulerProblemSolver
 {
 public:
+//    static void solveProblem(IProblem problem);
     static void solveProblem();
 };
 

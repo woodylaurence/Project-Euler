@@ -13,8 +13,6 @@ using namespace std;
 
 void Prob76 :: solve()
 {
-	cout << "Solving Problem 31..." << endl << endl;
-
 	denominations = new int[99];
 
 	for(int i = 0; i < 100; i++)
@@ -23,6 +21,11 @@ void Prob76 :: solve()
 	}
 
 	cout << "Answer: " << numWaysToMakeAmount(100, 99) << endl;
+}
+
+string Prob76 :: getProblemName()
+{
+    return "Problem 76";
 }
 
 long long Prob76 :: numWaysToMakeAmount(int amount, int largestDenominationToUse)

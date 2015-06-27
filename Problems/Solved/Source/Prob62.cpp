@@ -19,8 +19,6 @@ using namespace std;
 
 void Prob62 :: solve()
 {
-	cout << "Solving Problem 62..." << endl << endl;
-
 	long long num = 1;
 	long long answer = 0;
 	map<string, vector<int> > dictionaryOfHashesAndCubeRoots;
@@ -53,4 +51,9 @@ void Prob62 :: solve()
 
 	cout << "Answer: " << answer * answer * answer << endl;
 	cout << "Took " << (double)(end - start)/(CLOCKS_PER_SEC) * 1000 << "ms" << endl;
+}
+
+string Prob62 :: getProblemName()
+{
+    return "Problem 62";
 }

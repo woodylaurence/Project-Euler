@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29273DF41B3EA56400D453A2 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29273D691B3EA56400D453A2 /* Main.cpp */; };
 		29273DF51B3EA56400D453A2 /* Prob102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29273D7B1B3EA56400D453A2 /* Prob102.cpp */; };
 		29273DF61B3EA56400D453A2 /* Prob23.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29273D7C1B3EA56400D453A2 /* Prob23.cpp */; };
 		29273DF71B3EA56400D453A2 /* Prob26.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29273D7D1B3EA56400D453A2 /* Prob26.cpp */; };
@@ -115,7 +114,6 @@
 /* Begin PBXFileReference section */
 		29273D5E1B3EA53900D453A2 /* Project Euler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Project Euler"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29273D681B3EA56400D453A2 /* IProblem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IProblem.hpp; sourceTree = "<group>"; };
-		29273D691B3EA56400D453A2 /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
 		29273D6D1B3EA56400D453A2 /* Prob102.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Prob102.hpp; sourceTree = "<group>"; };
 		29273D6E1B3EA56400D453A2 /* Prob23.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Prob23.hpp; sourceTree = "<group>"; };
 		29273D6F1B3EA56400D453A2 /* Prob26.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Prob26.hpp; sourceTree = "<group>"; };
@@ -262,7 +260,6 @@
 			isa = PBXGroup;
 			children = (
 				29273D681B3EA56400D453A2 /* IProblem.hpp */,
-				29273D691B3EA56400D453A2 /* Main.cpp */,
 				29273D6A1B3EA56400D453A2 /* Problems */,
 				29273DDB1B3EA56400D453A2 /* ProjectEulerProblemSolver.cpp */,
 				29273DDC1B3EA56400D453A2 /* ProjectEulerProblemSolver.h */,
@@ -610,7 +607,6 @@
 				29273E011B3EA56400D453A2 /* Proj_1.cpp in Sources */,
 				29273E171B3EA56400D453A2 /* Proj_33.cpp in Sources */,
 				29273E211B3EA56400D453A2 /* Proj_45.cpp in Sources */,
-				29273DF41B3EA56400D453A2 /* Main.cpp in Sources */,
 				29273E361B3EA56400D453A2 /* Proj_69.cpp in Sources */,
 				29273E331B3EA56400D453A2 /* Proj_64.cpp in Sources */,
 				29273DFD1B3EA56400D453A2 /* Prob62.cpp in Sources */,
@@ -739,6 +735,7 @@
 				29273D671B3EA53900D453A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

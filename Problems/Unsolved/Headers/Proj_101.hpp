@@ -17,6 +17,8 @@ class Prob101 : public IProblem
 {
 public:
 	void solve();
+    string getProblemName();
+    
 	long long u_n(int n);
 	long long myPow(int base, int exponent);
 	vector<long long> findBOP(int k);

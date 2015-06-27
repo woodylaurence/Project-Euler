@@ -27,6 +27,11 @@ void Prob1::solve()
 	cout << "Sum = " << total << "\n";
 }
 
+string Prob1 :: getProblemName()
+{
+    return "Problem 1";
+}
+
 int Prob1::triangle(int limit, int delta)
 {
 	int sum=0;

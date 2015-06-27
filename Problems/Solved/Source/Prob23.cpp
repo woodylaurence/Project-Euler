@@ -12,8 +12,6 @@
 
 void Prob23 :: solve(void)
 {
-	cout << "Solving Problem 23..." << endl << endl;
-
 	vector<bool> canBeWrittenAsAbundent = vector<bool>(28123, false);
 	vector<int> abundentNumbers = getAbundantNumbers();
 
@@ -36,6 +34,11 @@ void Prob23 :: solve(void)
 	}
 
 	cout << "Answer: " << sum << endl;
+}
+
+string Prob23 :: getProblemName()
+{
+    return "Problem 23";
 }
 
 vector<int> Prob23 :: getAbundantNumbers()

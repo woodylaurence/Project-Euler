@@ -14,6 +14,8 @@ class Prob92 : public IProblem
 {
 public:
 	void solve();
+    std::string getProblemName();
+    
 	int getSquareOfSumDigits(int num);
 };
 

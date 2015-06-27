@@ -14,6 +14,7 @@ class Prob76 : public IProblem
 {
 public:
 	void solve();
+    std::string getProblemName();
 
 private:
 	long long numWaysToMakeAmount(int amount, int largestDenominationToUse);

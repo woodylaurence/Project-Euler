@@ -17,6 +17,8 @@ class Prob43 : public IProblem
 {
 public:
 	void solve();
+    string getProblemName();
+    
 	int convertSubDigitsToNumber(int firstDig, vector<int> number);
 	long long digitsToNum(vector<int> digits);
 	void printNumber(vector<int> digits);

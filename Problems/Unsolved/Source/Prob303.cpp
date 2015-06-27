@@ -26,6 +26,11 @@ void Prob303 :: solve(void)
 	cout << "Answer : " << sum << endl;
 }
 
+string Prob303 :: getProblemName()
+{
+    return "Problem 303";
+}
+
 int Prob303 :: getLowestMultiplier(int n)
 {
 	int i = 1;

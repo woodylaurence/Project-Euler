@@ -18,6 +18,7 @@ class Prob32 : public IProblem
 {
 public:
 	void solve();
+    string getProblemName();
 
 private:
 	vector<int> concatonateNumbers(int multiplcand, int multipler, int product);

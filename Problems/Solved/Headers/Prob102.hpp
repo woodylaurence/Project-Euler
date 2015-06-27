@@ -23,6 +23,8 @@ class Prob102 : public IProblem
 {
 public:
 	void solve();
+    string getProblemName();
+    
 	vector< vector<Point> >getTriangles();
 	bool containsOrigin(Point point1, Point point2, Point point3);
 };

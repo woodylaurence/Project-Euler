@@ -14,8 +14,6 @@ using namespace std;
 
 void Prob26 :: solve()
 {
-	cout << "Solving Problem 26..." << endl;
-
 	int answer = 1;
 	int longestRepeat = 0;
 
@@ -37,4 +35,9 @@ void Prob26 :: solve()
 		}
 	}
 	cout << "Answer: " << answer << endl;
+}
+
+string Prob26 :: getProblemName()
+{
+    return "Problem 26";
 }

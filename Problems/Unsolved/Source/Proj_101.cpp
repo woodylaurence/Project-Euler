@@ -22,6 +22,11 @@ void Prob101 :: solve()
 	}
 }
 
+string Prob101 :: getProblemName()
+{
+    return "Problem 101";
+}
+
 long long Prob101::myPow(int base, int exponent)
 {
 	long long answer = (long long)base;

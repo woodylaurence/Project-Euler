@@ -43,6 +43,11 @@ void Prob72 :: solve()
 	cout << "Answer: " << answer << endl;
 }
 
+string Prob72 :: getProblemName()
+{
+    return "Problem 72";
+}
+
 bool Prob72 :: mutuallyPrime(int num1, int num2)
 {
 	vector<int> num1PrimeFactors = Math::getPrimeFactors(num1);

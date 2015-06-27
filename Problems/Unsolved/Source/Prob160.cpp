@@ -14,7 +14,6 @@ using namespace std;
 
 void Prob160 :: solve()
 {
-	cout << "Solving Problem 23..." << endl << endl;
 	BigInt prod = 1;
 
 //	for (long i = 1; i < 1000000000000; i++)
@@ -27,3 +26,7 @@ void Prob160 :: solve()
 	cout << "Answer : " << prod << endl;
 }
 
+string Prob160 :: getProblemName()
+{
+    return "Problem 160";
+}

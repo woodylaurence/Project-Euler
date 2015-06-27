@@ -37,7 +37,7 @@ int solve(void)
 
 	return 0;*/
 }
-
+    
 bool isBouncy(BigInt *num)
 {
     throw "Needs reimplementing";

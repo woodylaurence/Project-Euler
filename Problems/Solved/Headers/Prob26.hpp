@@ -14,6 +14,7 @@ class Prob26 : public IProblem
 {
 public:
 	void solve();
+    std::string getProblemName();
 };
 
 #endif /* PROB26_HPP_ */

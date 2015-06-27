@@ -16,6 +16,7 @@ class Prob31 : public IProblem
 {
 public:
 	void solve();
+    string getProblemName();
 
 private:
 	long long numWaysToMakeAmount(int amount, int largestDenominationToUse);

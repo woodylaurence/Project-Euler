@@ -14,6 +14,7 @@ class Prob303 : public IProblem
 {
 public:
 	void solve();
+    std::string getProblemName();
 
 private:
 	int getLowestMultiplier(int n);

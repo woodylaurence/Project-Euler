@@ -18,8 +18,6 @@ using namespace std;
 
 void Prob92 :: solve()
 {
-	cout << "Solving Problem 92..." << endl << endl;
-
 	int numEndingIn89 = 0;
 
 	for (int i = 2; i < 10000000; i++)
@@ -28,6 +26,11 @@ void Prob92 :: solve()
 	}
 
 	cout << "Answer: " << numEndingIn89 << endl;
+}
+
+string Prob92 :: getProblemName()
+{
+    return "Problem 92";
 }
 
 int Prob92 :: getSquareOfSumDigits(int num)
