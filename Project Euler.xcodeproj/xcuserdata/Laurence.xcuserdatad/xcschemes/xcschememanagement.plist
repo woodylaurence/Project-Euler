@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Project Euler Tests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Project Euler.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>29273D5D1B3EA53900D453A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>293C84791B3F4F61007D6318</key>
 		<dict>
 			<key>primary</key>
 			<true/>

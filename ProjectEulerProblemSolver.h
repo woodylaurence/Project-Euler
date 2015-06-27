@@ -9,13 +9,12 @@
 #ifndef Project_Euler_ProjectEulerProblemSolver_h
 #define Project_Euler_ProjectEulerProblemSolver_h
 
-class IProblem;
+#include "IProblem.hpp"
 
 class ProjectEulerProblemSolver
 {
 public:
-//    static void solveProblem(IProblem problem);
-    static void solveProblem();
+    static void solveProblem(IProblem& problem);
 };
 
 #endif

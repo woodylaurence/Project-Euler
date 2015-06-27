@@ -9,7 +9,7 @@
 #define MATH_HPP_
 
 #include <vector>
-#include "BigInt.hpp"
+#include "BigInt.h"
 
 using namespace std;
 
